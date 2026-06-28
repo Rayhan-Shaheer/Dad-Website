@@ -9,6 +9,8 @@ export default function Footer() {
     { name: 'About Us', path: '/about' },
     { name: 'Our Courses', path: '/courses' },
     { name: 'Gallery', path: '/gallery' },
+    { name: 'Student Admission', path: '/admission' },
+    { name: 'Center Booking', path: '/booking' },
     { name: 'Contact Us', path: '/contact' },
   ]
 

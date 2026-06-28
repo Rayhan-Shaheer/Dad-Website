@@ -88,7 +88,7 @@ export default function CourseGrid() {
   ]
 
   const handleInquire = () => {
-    navigate('/contact', { state: { scrollInquiry: true } })
+    navigate('/admission')
   }
 
   return (

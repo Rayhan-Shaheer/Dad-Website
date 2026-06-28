@@ -79,7 +79,7 @@ export default function CoursesPage() {
                 </p>
               </div>
               <button
-                onClick={() => navigate('/contact')}
+                onClick={() => navigate('/admission')}
                 className="w-full bg-primary hover:bg-primary-hover text-white py-2.5 rounded-full font-bold text-xs uppercase tracking-wider shadow-md shadow-primary/10 transition-all cursor-pointer"
               >
                 Inquire Now

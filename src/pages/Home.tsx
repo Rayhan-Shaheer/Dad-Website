@@ -7,6 +7,7 @@ import Mission from '@/components/Mission'
 import Vision from '@/components/Vision'
 import DirectorMessage from '@/components/DirectorMessage'
 import CourseGrid from '@/components/CourseGrid'
+import CorporateCTA from '@/components/CorporateCTA'
 import { ArrowRight, Sparkles } from 'lucide-react'
 
 export default function Home() {
@@ -75,6 +76,9 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* 7. Corporate Assessment Center CTA */}
+      <CorporateCTA />
 
     </PageTransition>
   )

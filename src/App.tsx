@@ -7,6 +7,8 @@ import AboutPage from '@/pages/AboutPage'
 import CoursesPage from '@/pages/CoursesPage'
 import GalleryPage from '@/pages/GalleryPage'
 import ContactPage from '@/pages/ContactPage'
+import AdmissionPage from '@/pages/AdmissionPage'
+import BookingPage from '@/pages/BookingPage'
 
 // ScrollToTop component to reset scroll on route changes
 function ScrollToTop() {
@@ -33,6 +35,8 @@ function AnimatedRoutes() {
           <Route path="about" element={<AboutPage />} />
           <Route path="courses" element={<CoursesPage />} />
           <Route path="gallery" element={<GalleryPage />} />
+          <Route path="admission" element={<AdmissionPage />} />
+          <Route path="booking" element={<BookingPage />} />
           <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>
